@@ -1,4 +1,5 @@
 html,body{height: 100%;}
+body{box-sizing: border-box; padding-top: 100px;}
 *{margin: 0; padding: 0;}
 .main{display: flex; flex-direction: column; width: 500px; height: 500px; margin: 0 auto; border: 1px solid #CCC;}
 .image{width: 400px; height: 400px; margin: 20px auto; border: 1px solid #AAA;}
@@ -8,6 +9,7 @@ html,body{height: 100%;}
 .text button{padding: 6px 10px; letter-spacing: 1px; border: 1px solid #378302; border-radius: 5px; background-color: #FFF; outline: none; cursor: pointer;}
 
 @media screen and (max-width: 768px){
+  body{padding-top: 50px;}
   .main{width: 100%;}
   .image{width: 360px; height: 360px;}
 }
